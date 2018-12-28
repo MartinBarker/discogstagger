@@ -1,0 +1,19 @@
+
+<head>
+<%= favicon_link_tag '/favicon.ico' %>
+<% content_for :title, "discogstagger" %>
+</head>
+
+
+<body>
+
+<ul id="ulID">
+ <div class = 'want_to_change' id = "change_this">This should change when button is pressd.</div>
+</ul>
+
+<form>
+  Discogs release URL: <input type="text" name="url" id="urlInput"><br>
+  <input type="submit" value="Submit" onclick="return onLoadConfigPress(document.getElementById('urlInput').value)" >
+</form>
+
+</body>
