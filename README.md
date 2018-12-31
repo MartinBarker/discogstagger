@@ -1,4 +1,4 @@
 # discogs tagger
 
-- [rails](https://github.com/rails/rails) 
+![Alt text](https://i.imgur.com/Ldn9ZfO.png "Optional title")
 
