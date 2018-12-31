@@ -1,0 +1,62 @@
+
+
+
+
+
+body {
+	  padding-top: 60px;
+	    text-align: center;
+	      background-color: #effeff;
+	        font-family: "Arial", Times, serif;
+		text-align: left;
+	}
+
+.title {
+	padding-top: 10px;
+	margin: auto;
+	width: 50%;
+	text-decoration: none;
+}
+
+.howto1{
+	font-size: 111%;
+	white-space: nowrap;
+	font-family: "Arial", Times, serif;
+}
+
+.howto2{
+	font-size: 90%;
+	text-decoration: none;
+	font-weight: normal;
+	
+	white-space: normal;
+}
+
+.want_to_change{
+	word-wrap: break-word;
+}
+
+div {
+	padding-top: 19px;
+	margin: auto;
+	width: 50%;
+	font-size: 111%;
+	white-space:normal;
+	text-align: left;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */

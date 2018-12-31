@@ -1,0 +1,30 @@
+
+<head>
+	<!--
+	<%= favicon_link_tag '/favicon.ico' %>
+	<% content_for :title, "discogstagger" %>
+	-->	
+</head>
+
+
+<body>
+
+	<h1 class = "title"><a href = "https://github.com/MartinBarker/discogstagger">DiscogsTagger</a></h1>
+	<div>
+	<p>
+		<h1 class = "howto1">How to use:</h2>
+		<h1 class = "howto2">Input a discogs release URL like so: <a href = "https://www.discogs.com/Le-Car-Auto-Biography/release/41048">"https://www.discogs.com/Le-Car-Auto-Biography/release/41048</a> and click 'submit' to generate a list of tags seperated by commas. </h3>
+			
+	</p>
+
+	<ul id="ulID">
+		 <div class = 'want_to_change' id = "change_this"></div>
+	</ul>
+
+	<form>
+		  Discogs release URL: <input type="text" name="url" id="urlInput"><br>
+		    <input type="submit" value="Submit" onclick="return onLoadConfigPress(document.getElementById('urlInput').value)" >
+	</form>
+	</div>
+</body>
+
