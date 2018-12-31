@@ -7,4 +7,4 @@ YouTube tags:
 ![Alt text](https://i.imgur.com/Ldn9ZfO.png "Optional title")
 
 discogstagger.site tags: 
-![Alt text](https://imgur.com/yQn77l4 "Optional title")
+![](https://i.imgur.com/yQn77l4.png "xOptional title")
